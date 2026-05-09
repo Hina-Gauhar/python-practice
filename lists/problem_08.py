@@ -15,4 +15,9 @@
 # Milky Way-74
 # Three Musketeers-32
  
+candy_list = ['Jelly Belly','Kit Kat','Double Bubble','Milky Way','Three Musketeers']
+no_of_items = [10,20,34,74,32]
+l=list(zip(candy_list,no_of_items))
 
+for i,j in l:
+    print(i,"-",j)
